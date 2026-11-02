@@ -11,7 +11,7 @@ Machine learning project predicting diabetes from patient health indicators (`PF
 - **Modeling** – Logistic Regression, KNN, Decision Tree, Random Forest, Gradient Boosting, AdaBoost, Naive Bayes and XGBoost, compared on accuracy and F1
 
 ## Dataset
-`diabetes_prediction_dataset.csv` (not included). Update the path in the notebook to run it locally.
+diabetes_prediction_dataset.csv (included): 100,000 rows, a deliberately noisy version of the Kaggle Diabetes prediction dataset with inconsistent labels, malformed BMI values and missing data. The notebook reads it from /content/ (Google Colab); change the path to run it locally.
 
 ## Tech stack
 Python · pandas · NumPy · scikit-learn · imbalanced-learn · XGBoost · matplotlib · seaborn
